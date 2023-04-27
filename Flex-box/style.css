@@ -16,10 +16,33 @@ body{
     /* justify-content: space-between; */
     /* justify-content: space-evenly; */
 
-    height: 400px;
+    /* ------------------------------------------------ */
+    
+    /* justify-content and align item */
+    /* height: 400px;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
     /* align-items: end; */
+
+    /* --------------------flex direction ---------------------------- */
+    height: 500px;
+    
+    flex-direction: column;
+    /* always on main axis */
+    justify-content: end;
+    /* always on cross axis */
+    align-items: center;
+    /* align-items: start; */
+    
+    
+    /* ------------------------------------------------ */
+    /* ------------------------------------------------ */
+    /* ------------------------------------------------ */
+    /* ------------------------------------------------ */
+    /* ------------------------------------------------ */
+    /* ------------------------------------------------ */
+    /* ------------------------------------------------ */
+
 }
 
 .item{
@@ -28,12 +51,19 @@ body{
     background-color: aquamarine;
     color: black;
     margin: 10px;
+
+    /* If i want to center the item inside the div item */
+    /* centering element */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /* if I want some of box to set specific position use align-self */
 /* sudo selector or we can do this by give another class name like item-1 */
 
-.item:nth-of-type(1){
+/* .item:nth-of-type(1){
     align-self: flex-start;
 }
 .item:nth-of-type(2){
@@ -41,4 +71,4 @@ body{
 }
 .item:nth-of-type(3){
     align-self: flex-end;
-}
+} */
